@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+body {
+  color: white;
+}
+
+
+a, a:visited {
+  color: white;
+}
