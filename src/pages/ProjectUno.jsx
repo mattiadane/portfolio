@@ -3,7 +3,7 @@ import ProjectWindow from "../components/ProjectWIndow";
 function ProjectUno() {
   return (
     <ProjectWindow
-      title="UNO command-line-interface"
+      title="UNO cli"
       path="/myprojects"
       readme="/myprojects/uno/readme"
       github="https://github.com/mattiadane/uno"

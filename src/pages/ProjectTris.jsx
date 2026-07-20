@@ -3,7 +3,7 @@ import ProjectWindow from "../components/ProjectWIndow";
 function ProjectTris() {
   return (
     <ProjectWindow
-      title=" Gioco Tris Web"
+      title="Tris Web"
       path="/myprojects"
       readme="/myprojects/tris/readme"
       github="https://github.com/mattiadane/tris"

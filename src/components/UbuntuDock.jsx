@@ -11,10 +11,14 @@ function UbuntuDock() {
   };
 
   return (
-    <div className="fixed left-0 top-0 h-screen w-20 bg-neutral-950 flex flex-col items-center py-8 gap-8 shadow-xl z-40">
+    <div className="fixed left-0 top-0 h-dvh w-20 bg-neutral-950 flex flex-col items-center py-8 gap-10 shadow-xl z-40">
+      
       {/* HOME */}
       <div className="relative flex flex-col items-center">
-        <NavLink to="/portfolio/" className="text-5xl text-white hover:opacity-80">
+        <NavLink
+          to="/portfolio/"
+          className="text-5xl text-white hover:opacity-80 inline-flex items-center justify-center"
+        >
           🏠
         </NavLink>
         {isActive("/portfolio/") && (
@@ -26,7 +30,7 @@ function UbuntuDock() {
       <div className="relative flex flex-col items-center">
         <NavLink
           to="/myprojects"
-          className="text-5xl text-white hover:opacity-80"
+          className="text-5xl text-white hover:opacity-80 inline-flex items-center justify-center"
         >
           📁
         </NavLink>
@@ -39,7 +43,7 @@ function UbuntuDock() {
       <div className="relative flex flex-col items-center">
         <NavLink
           to="/contactme"
-          className="text-5xl text-white hover:opacity-80"
+          className="text-5xl text-white hover:opacity-80 inline-flex items-center justify-center"
         >
           ✉️
         </NavLink>

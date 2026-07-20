@@ -10,7 +10,7 @@ function Contact() {
         Puoi contattarmi tramite i miei social o email:
       </p>
 
-      <div className="flex flex-wrap gap-6 text-white text-4xl">
+      <div className="flex flex-wrap gap-6 text-white text-4xl mt-6">
         <a
           href="https://www.instagram.com/mattia_danese_/"
           target="_blank"

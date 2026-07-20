@@ -15,13 +15,13 @@ function UbuntuTopBar() {
   };
 
   useEffect(() => {
-    updateTime(); // inizializza subito
+    updateTime();
     const interval = setInterval(updateTime, 1000);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="fixed top-0 left-20 right-0 h-12 bg-neutral-900 text-white flex items-center px-4 shadow-md z-30">
+    <div className="fixed top-0 left-16 md:left-20 right-0 h-12 bg-neutral-900 text-white flex items-center px-4 shadow-md z-30">
 
       {/* SINISTRA */}
       <div className="w-1/3 flex items-center">
@@ -29,11 +29,11 @@ function UbuntuTopBar() {
       </div>
 
       {/* CENTRO */}
-      <div className="w-1/3 flex justify-center">
+      <div className="w-1/3 flex justify-center pl-4 md:pl-8">
         <span className="font-medium">{time}</span>
       </div>
 
-      {/* DESTRA (vuota per ora) */}
+      {/* DESTRA */}
       <div className="w-1/3 flex justify-end gap-4 pr-4"></div>
 
     </div>

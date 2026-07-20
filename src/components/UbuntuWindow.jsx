@@ -5,7 +5,7 @@ function UbuntuWindow({ title, children, path }) {
   return (
     <div
       className="
-        bg-neutral-900/80 
+        bg-neutral-900/90
         backdrop-blur-md 
         rounded-xl 
         shadow-2xl 
@@ -15,20 +15,8 @@ function UbuntuWindow({ title, children, path }) {
         w-full
         mx-auto 
 
-        p-10 
-        mt-20
-
-        lg:p-10
-        lg:mt-20
-
-        md:p-8
-        md:mt-16
-
-        sm:p-6
-        sm:mt-14
-
-        xs:p-4
-        xs:mt-10
+        p-6 md:p-8 lg:p-10
+        mt-14 md:mt-20
       "
     >
       <div className="flex items-center gap-3 mb-8">

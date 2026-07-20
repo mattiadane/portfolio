@@ -2,7 +2,7 @@ import UbuntuWindow from "../components/UbuntuWindow";
 
 function Home() {
   return (
-    <UbuntuWindow title="Benevunuto" path={null}>
+    <UbuntuWindow title="Benvunuto" path={null}>
       <h1 className="text-white text-3xl font-bold">Sono Mattia Danese</h1>
 
       <p className="text-white/80 mt-4">
@@ -11,12 +11,11 @@ function Home() {
         progetti che mi aiutano a crescere come sviluppatore, nel mio tempo
         libero mi alleno ed esco con gli amici.
       </p>
-      <br />
-      <h4 className="font-bold">
+      <h4 className="font-bold mt-6">
         Per approfondire la mia conoscenza
         <a 
         className="btn btn-submit btn-ghost"
-        href="portfolio/asstes/Curriculum_MattiaDanese.pdf"
+        href="/portfolio/Curriculum_MattiaDanese.pdf"
         download="Curriculum_MattiaDanese.pdf"
         
         > clicca qui </a> per scaricare
