@@ -16,7 +16,7 @@ function Home() {
         Per approfondire la mia conoscenza
         <a 
         className="btn btn-submit btn-ghost"
-        href="/asstes/Curriculum_MattiaDanese.pdf"
+        href="portfolio/asstes/Curriculum_MattiaDanese.pdf"
         download="Curriculum_MattiaDanese.pdf"
         
         > clicca qui </a> per scaricare
