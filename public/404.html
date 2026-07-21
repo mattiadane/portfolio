@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      // Nome del repo GitHub Pages
+      const repo = "portfolio";
+
+      // Path richiesto dall’utente
+      const path = window.location.pathname.replace(`/${repo}`, "");
+
+      // Redirect verso index.html con il path originale
+      window.location.replace(`/${repo}/index.html?redirect=${path}`);
+    </script>
+  </head>
+  <body></body>
+</html>
