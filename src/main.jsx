@@ -17,9 +17,6 @@ import Footer from "./components/Footer";
 import "/node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 
-
-import { BrowserRouter } from "react-router-dom";
-
 const redirectPath = new URLSearchParams(window.location.search).get("redirect");
 
 if (redirectPath) {
