@@ -16,12 +16,12 @@ function UbuntuDock() {
       {/* HOME */}
       <div className="relative flex flex-col items-center">
         <NavLink
-          to="/portfolio/"
+          to="/"
           className="text-5xl text-white hover:opacity-80 inline-flex items-center justify-center"
         >
           🏠
         </NavLink>
-        {isActive("/portfolio/") && (
+        {isActive("/") && (
           <div className="absolute left-0 top-1/2 -translate-y-1/2 w-2 h-2 bg-orange-500 rounded-full"></div>
         )}
       </div>

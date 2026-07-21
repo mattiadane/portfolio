@@ -32,7 +32,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
     <div className="ml-20 mt-12 h-[calc(100vh-3rem)] overflow-y-auto bg-linear-to-br from-neutral-900 via-neutral-800 to-neutral-900 p-6">
       <Routes>
-        <Route path="/portfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/myprojects" element={<Projects />} />
         <Route path="/contactme" element={<Contact />} />
         <Route path="/myprojects/mdp" element={<ProjectMDP />} />
